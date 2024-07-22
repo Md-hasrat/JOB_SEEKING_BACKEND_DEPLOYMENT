@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 
-export const  dbConnection =  ()=>{
+export const  dbconnection =  ()=>{
     mongoose.connect(process.env.MONGO_URI,{
         dbName:"MERN_STACK_JOB_SEEKING"
     }).then(()=>{
